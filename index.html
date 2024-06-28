@@ -13,27 +13,66 @@
     <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-    <!-- O corpo do HTML está vazio para focar apenas no JavaScript -->
+    <!-- dht -->
 
+    <div class="Temp">
+        <h2>Variação de Temperatura Solo</h2>
+        <h1 id="currentTemperature"> --°C</h1>
+    </div>
     <div style="max-width: 800px; margin: auto;">
         <h1>Temperatura Solo</h1>
         
         <canvas id="temperatureChart" width="400" height="200"></canvas>
     </div>
-    <div class="Temp">
-        <h2>Variação de Temperatura Solo</h2>
-        <h1 id="currentTemperature"> --°C</h1>
-    </div>
+    
+    <!-- ds18 -->
 
+    <div class="Temp">
+        <h2>Variação de Temperatura Externa</h2>
+        <h1 id="currentTemperatureDHT"> --°C</h1>
+    </div>
     <div style="max-width: 800px; margin: auto;">
         <h1>Temperatura Externa</h1>
         
         <canvas id="temperatureChartDHT" width="400" height="200"></canvas>
     </div>
+    
+    <!-- umidade -->
+
     <div class="Temp">
-        <h2>Variação de Temperatura Externa</h2>
-        <h1 id="currentTemperatureDHT"> --°C</h1>
+        <h2>Variação Da Umidade Relativa do Ar</h2>
+        <h1 id="currentUmidade"> </h1>
     </div>
+    <div style="max-width: 800px; margin: auto;">
+        <h1>Umidade Relativa do Ar</h1>
+        
+        <canvas id="umidade" width="400" height="200"></canvas>
+    </div>
+
+    <!-- intensidadeUV -->
+
+    <div class="Temp">
+        <h2>Variação Da Intensidade UV</h2>
+        <h1 id="currentIntensidadeUV"> </h1>
+    </div>
+    <div style="max-width: 800px; margin: auto;">
+        <h1>Intensidade UV</h1>
+        
+        <canvas id="intensidadeUV" width="400" height="200"></canvas>
+    </div>
+
+    <!-- Vento -->
+
+    <div class="Temp">
+        <h2>Variação Da Intensidade dos Ventos</h2>
+        <h1 id="currentVento"> </h1>
+    </div>
+    <div style="max-width: 800px; margin: auto;">
+        <h1>Intensidade dos Ventos</h1>
+        
+        <canvas id="intensidadeVento" width="400" height="200"></canvas>
+    </div>
+    
 
     <script src="script.js"></script>
 </body>
