@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exibição de Dados do Firebase</title>
+    <!-- Carregue o Firebase sem módulos -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <!-- O corpo do HTML está vazio para focar apenas no JavaScript -->
+
+    <div style="max-width: 800px; margin: auto;">
+        <h1>Temperatura Solo</h1>
+        
+        <canvas id="temperatureChart" width="400" height="200"></canvas>
+    </div>
+    <div class="Temp">
+        <h2>Variação de Temperatura Solo</h2>
+        <h1 id="currentTemperature"> --°C</h1>
+    </div>
+
+    <div style="max-width: 800px; margin: auto;">
+        <h1>Temperatura Externa</h1>
+        
+        <canvas id="temperatureChartDHT" width="400" height="200"></canvas>
+    </div>
+    <div class="Temp">
+        <h2>Variação de Temperatura Externa</h2>
+        <h1 id="currentTemperatureDHT"> --°C</h1>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

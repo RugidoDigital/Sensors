@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sensors-hope",
+  "private_key_id": "9eaea1f2b58ab74a68db5716a241c392d2df7522",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCiHvqlEYhzlk5O\nD8bq5crsKWBs1q6vTHVNIcdj9Ax8XSwNZuOk4La1TdGNQpUmGE4SIPFsvIUWD2UV\n+sDjOR0/oy625A3/tIoJH22xtvc49x+4cS8F/L554ATPZ4/vyb3HYwlJ80CoPc0N\n5WrixuAe3pPI+XHX8L40LmmqSLDWUPysncumkE9JJyuOWlvxZwQN15GHLpj8C9/2\n0XOdV2S6LLhGX/COrIs6+jbLD0h0Lfq75DDFlCjKasZplebr/n9ptW1mw1n4RqfP\n4X26JlCR2pjO9BPww235uT3m49Mwcoes1mz5dq96sT97WewYyV2GbZvCCglxJ4xX\n6GmhdMl7AgMBAAECggEAQr9bdbPSyLglFDmlrdefZP0iIJ2A/VaO4wtZwvrbWyan\nOPtYFW2Ze+sGsFCuBKm0Fv2uOJUjfDIpbdO4L7U3qBhA5vbdFp7XyCrC6IzKm48P\nZcpf0Gi/aYFEqbnbRp/6fUl2rRY0VDBhqOuARs8Xvk3obbHZ38zUGrrTMVNNT2cP\nuXm6tOFkDcN3K65pP4Oh5CatOD/3KGfqCClGWue7aZAwZZrszLfd9pE5j+z3HW6w\nQMJ/JAVEYXpxtkImROiURgkA1nE13udYbixajJ0wIBOHP2WE8xMggs4BNCEbWf5q\nwM22mdh4PJl2c1Mknz2/8JuJalBB5ncDhQIQan9U1QKBgQDVbUxZ0E5F0gbCPKFO\nVs83FcflGxuFF0ODrh+Mw6xAUItx24XX54xFuLXj1wwqyyF7SDpC9HAES6dFwptY\n/dN14nUspyYVeZQi3DfBQmYat9pEbOCHrwfo123ORciz344Sm1EhkKeV3GXSUNkP\nFOZ2ObrKf9Q9cznsPr5ass1WTQKBgQDCdbrqvJ3gu8T5mKMrq79sAeijTO37YP1C\nZXCFuAxb5fIIvrgz4FDf+3qk7MSieomedTemwlnQpVn+WOMpkwp1r6zXDoqd3NE8\ntAzumJIu/73bMFb0RzwOwx6OAx6lrJLWbayizKbCBLT8PwsPiH3ObKTBrAAV2KSE\nwm11jMSS5wKBgQCB1xKB+UYFF/bgp/4CKLG7c1a+vLULTNHYBFBRVKEwJ1AOHlzY\nspcVu398ctGGHznpRFGddhPHqTbEK9ZSV2kT6IcceTukCOjkJFEPE5QGYR86TXpz\nUTpgnt7AhJfLRg+qpi6/Wr95XjHbty+2CyMBfbFzjDzUfYsZfDpV9z0QaQKBgCS8\nkxRXj8fuETdKE8FjT+V6stVu6iKsXwwVF93bOFKALWpjhW8feIfn/XJ83GUJm0gZ\nQus5GjillEvNxRSMl9RF3PQ/5gYOumSqaysEHdHNNLPc/QBnGLx9Nh+EDV0lLhRe\nYdfbq8FJnFtvGYrUsVe3BKUl9loqNGJ0TLOBZX2PAoGAET5Q94Tun2uO8xNGhoJA\n5UmJX+dZV3rwD+lZKX+m4yeXXbEsTp+ZuEmRA4iiSWwB2a/ziIaM2qTYUri21bc2\nZ2Vfz6nB+u5o6OQEjyPKN0l3ov+epY2ytzDv6Mjqo/S0FwfRe9UUfIsx8jacXzhh\n13C7melNvhA2DiZP8FKZXN4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-f84dv@sensors-hope.iam.gserviceaccount.com",
+  "client_id": "105250626456363122387",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-f84dv%40sensors-hope.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
