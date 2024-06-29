@@ -36,7 +36,7 @@ const chart = new Chart(ctx, {
     labels: labels,
     datasets: [{
       label: 'Temperatura em Tempo Real',
-      borderColor: 'rgb(75, 192, 192)',
+      borderColor: 'rgb(211, 148, 78)',
       data: temperatureData,
     }]
   },
@@ -57,7 +57,7 @@ const chartDHT = new Chart(dht, {
     labels: labels,
     datasets: [{
       label: 'Temperatura em Tempo Real',
-      borderColor: 'rgb(75, 192, 192)',
+      borderColor: 'rgb(255, 82, 82)',
       data: currentTemperatureDHT,
     }]
   },
@@ -77,7 +77,7 @@ const charUmidade = new Chart(umidade, {
     labels: labels,
     datasets: [{
       label: 'Temperatura em Tempo Real',
-      borderColor: 'rgb(75, 192, 192)',
+      borderColor: 'rgb(133, 236, 239)',
       data: currentUmidade,
     }]
   },
@@ -97,7 +97,7 @@ const charUV = new Chart(intensidadeUV, {
     labels: labels,
     datasets: [{
       label: 'Temperatura em Tempo Real',
-      borderColor: 'rgb(75, 192, 192)',
+      borderColor: 'rgb(220, 53, 255)',
       data: currentIntensidadeUV,
     }]
   },
@@ -117,7 +117,7 @@ const charVento = new Chart(intensidadeVento, {
     labels: labels,
     datasets: [{
       label: 'Temperatura em Tempo Real',
-      borderColor: 'rgb(75, 192, 192)',
+      borderColor: 'rgb(163, 163, 163)',
       data: currentVento,
     }]
   },
